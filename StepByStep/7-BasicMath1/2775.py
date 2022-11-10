@@ -3,14 +3,18 @@
 import sys
 input = sys.stdin.readline
 
+table = [[0]*14 for i in range(15)]
+
 
 def get_num(k, n):
-    if k != 0 and n != 1:
-        return get_num(k, n-1)+get_num(k-1, n)
-    elif n == 1:
+    if n == 1:
         return 1
-    else:
+    if k == 0:
         return n
+    if table[k][n] != 0:
+        return table[k][n]
+    table[k][n] = table[k][n-1] + table[k-1]+n
+    return table[k][n]
 
 
 # 입력
