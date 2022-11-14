@@ -1,5 +1,8 @@
 # 스택
 
+import sys
+input = sys.stdin.readline
+
 
 def s_push(stack, x):
     stack.append(x)
