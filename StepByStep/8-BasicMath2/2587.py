@@ -21,7 +21,7 @@ for x in range(2, int(n**0.5 + 1)):
 
 prime_list = [x for x in range(m, n+1) if tf_array[x] == True]
 
-# 합과 최솟값 구하기
+# 합과 최솟값 구해서 출력
 if len(prime_list) != 0:
     print(sum(prime_list))
     print(prime_list[0])
