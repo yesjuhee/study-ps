@@ -1,5 +1,7 @@
 # 단어 정렬
 
+# 다른 답안을 찾아보니까 key를 이용해 정렬 함수를 이용하는 방법이 좋아 보임
+
 import sys
 input = sys.stdin.readline
 
