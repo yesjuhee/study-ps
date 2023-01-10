@@ -2,6 +2,7 @@
 
 # 입력
 position = input()
+#b2
 row = int(position[1])
 column = ord(position[0]) - 96
 
