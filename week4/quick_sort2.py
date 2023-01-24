@@ -12,6 +12,7 @@ def quick_sort(array):
     left_side = [x for x in tail if x <= pivot]  # 왼쪽 분할 : 피벗보다 크기가 작은 원소들
     right_side = [x for x in tail if x > pivot]  # 오른쪽 분할 : 피벗보다 크기가 큰 원소들
 
+    # 분할 각각에 대해 퀵정렬을 수행하고 리턴
     return quick_sort(left_side) + [pivot] + quick_sort(right_side)
 
 
