@@ -17,3 +17,15 @@ for word_set in word_set_list:
         continue
     word_set = sorted(word_set)
     print('\n'.join(word_set))
+
+# # 윤주 풀이
+# from sys import stdin
+# n = int(input())
+
+# str = []
+# for _ in range(n):
+#     str.append(stdin.readline().rstrip())
+
+# str = list(set(str))
+# str.sort(key = lambda x:(len(x),x))
+# for s in str: print(s)
