@@ -28,8 +28,8 @@
 | Week3 | DFS & BFS | 2023년 1월 19일 | yesjuhee |
 | Week4 | 정렬 알고리즘 | 2023년 1월 25일 | yesjuhee |
 | Week5 | 이진 탐색 | 2023년 2월 1일 | Yoonju-jang |
-| Week6 | 다이나믹 프로그래밍 | 2023년 2월 8일 | Yoonju-jang |
+| Week6 | 다이나믹 프로그래밍 | 2023년 2월 8일 | yesjuhee |
 | Week7 | 최단 경로 알고리즘 | 2023년 2월 13일 | Yoonju-jang |
-| Week8 | 기타 그래프 이론 | 2023년 2월 20일 | Yoonju-jang |
+| Week8 | 기타 그래프 이론 | 2023년 2월 20일 | yesjuhee |
 
 ## 공부 내용 및 소스코드 정리
