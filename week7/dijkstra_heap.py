@@ -12,7 +12,7 @@ graph = [[] for i in range(node_num + 1)] # 간접 리스트, 각 행은 각 노
 distance = [INF] * (node_num + 1)         # 최단 거리 테이블
 
 # 입력 2 - 간선 정보
-for _ in range(vertex_num):
+for _ in range(edge_num):
     a, b, c = map(int, input().split())  # a노드에서 b노드까지의 간선 비용이 c
     graph[a].append((b, c))              # 간접 리스트에 튜플 자료형을 이용해 저장
 
