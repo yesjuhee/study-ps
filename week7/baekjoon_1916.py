@@ -1,20 +1,23 @@
-# 다익스트라 알고리즘 : 개선된 구현 방법
+# 최소 비용 구하기
+
 import heapq
 import sys
 input = sys.stdin.readline
 INF = int(1e9) # 1 * 10^9 (10억)
 
 # 입력 1
-node_num, edge_num = map(int, input().split())
-start_node = int(input())
+node_num = int(input())
+edge_num = int(input())
 
 graph = [[] for i in range(node_num + 1)] # 간접 리스트, 각 행은 각 노드의 연결을 의미함
 distance = [INF] * (node_num + 1)         # 최단 거리 테이블
 
 # 입력 2 - 간선 정보
-for _ in range(vertex_num):
+for _ in range(edge_num):
     a, b, c = map(int, input().split())  # a노드에서 b노드까지의 간선 비용이 c
     graph[a].append((b, c))              # 간접 리스트에 튜플 자료형을 이용해 저장
+
+start_node, end_node = map(int, input().split())
 
 # 다익스트라 함수
 def dijkstra(start):
@@ -41,8 +44,4 @@ def dijkstra(start):
 dijkstra(start_node)
 
 # start 노드로부터 모든 노드로까지의 최단 거리 출력
-for i in range(1, node_num + 1):
-    if distance[i] == INF:
-        print("INFINITY")
-    else:
-        print(distance[i])
+print(distance[end_node])
