@@ -33,28 +33,27 @@
 | Week8 | 기타 그래프 이론 | 2023년 2월 20일 | yesjuhee |
 
 ## 공부 내용 및 소스코드 정리
-- BFS & DFS
-    - BFS ([Python](https://github.com/yesjuhee/Hi-Algorithm/blob/main/week3/bfs.py), [C++](https://github.com/yesjuhee/Hi-Algorithm/blob/main/week3/bfs.cpp))
-    - DFS ([Python](https://github.com/yesjuhee/Hi-Algorithm/blob/main/week3/dfs.py), [C++](https://github.com/yesjuhee/Hi-Algorithm/blob/main/week3/dfs.cpp))
-- 기타
+- BFS & DFS [Velog 🔗](https://velog.io/@yesjuhee/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-DFS-BFS#%EA%B7%B8%EB%9E%98%ED%94%84-%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98--dfsbfs)
     - 유클리디안 알고리즘 ([Python](./week3/euclidian_algorithm.py))
     - 큐 자료구조 ([Python](./week3/queue_.py), [C++](./week3/queue_.cpp))
     - 스택 자료구조 ([Python](./week3/stack.py), [C++](./week3/stack.cpp))
-- 정렬
+    - BFS ([Python](https://github.com/yesjuhee/Hi-Algorithm/blob/main/week3/bfs.py), [C++](https://github.com/yesjuhee/Hi-Algorithm/blob/main/week3/bfs.cpp))
+    - DFS ([Python](https://github.com/yesjuhee/Hi-Algorithm/blob/main/week3/dfs.py), [C++](https://github.com/yesjuhee/Hi-Algorithm/blob/main/week3/dfs.cpp))
+- 정렬 [Velog 🔗](https://velog.io/@yesjuhee/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
     - 선택 정렬 ([Python](./week4/selection_sort.py))
     - 삽입 정렬 ([Python](./week4/insertion_sort.py))
     - 퀵 정렬 1 ([Python](./week4/quick_sort1.py))
     - 퀵 정렬 2 ([Python](./week4/quick_sort2.py))
     - 계수 정렬 ([Python](./week4/count_sort.py))
-- 이진탐색
+- 이진탐색 [Velog 🔗](https://velog.io/@yesjuhee/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9D%B4%EC%A7%84-%ED%83%90%EC%83%89)
     - 재귀함수를 이용한 이진탐색 ([Python](./week5/binary_search_recurssion.py))
     - 반복문을 이용한 이진탐색 ([Python](./week5/binary_search_loop.py), [C++](./week5/binary_search.cpp))
     - 파이썬 이진탐색 라이브러리를 이용하여 특정 범위의 데이터 개수 구하기 ([Python](./week5/count_by_range.py))
-- 다이나믹 프로그래밍
+- 다이나믹 프로그래밍 [Velog 🔗](https://velog.io/@yesjuhee/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%8B%A4%EC%9D%B4%EB%82%98%EB%AF%B9-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
     - 피보나치/재귀 ([Python](./week6/fibonacci.py), [C++](./week6/fibonacci.cpp))
     - 다이나믹 프로그래밍 1 : 피보나치/탑다운 ([Python](./week6/fibonacci-topdown.py))
     - 다이나믹 프로그래밍 2 : 피보나치/보텀업 ([Python](./week6/fibonacci-bottomup.py), [C++](./week6/fibonacci-bottomup.cpp))
-- 최단 경로 알고리즘
+- 최단 경로 알고리즘 [Velog 🔗](https://velog.io/@yesjuhee/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%B5%9C%EB%8B%A8-%EA%B2%BD%EB%A1%9C-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
     - 다익스트라 알고리즘/선형탐색 ([Python](./week7/dijkstra.py), [C++](./week7/dijkstra.cpp))
     - 다익스트라 알고리즘/힙 이용 ([Python](./week7/dijkstra_heap.py), [C++](./week7/dijkstra_heap.cpp))
     - 플로이드워셜 알고리즘 ([Python](./week7/floyd-warshall.py), [C++](./week7/floyd-warshall.cpp))
