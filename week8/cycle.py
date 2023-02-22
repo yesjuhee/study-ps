@@ -24,12 +24,7 @@ parent_table = [0] * (num_node + 1)
 
 # 부모 테이블 초기화
 for i in range(1, num_node + 1):
-    parent_table[i] = i;
-
-# Union 연산을 입력받아 수행
-for i in range(num_edge):
-    a, b = map(int, input().split())
-    union_parent(parent_table, a, b)
+    parent_table[i] = i
 
 
 # 사이클 판별

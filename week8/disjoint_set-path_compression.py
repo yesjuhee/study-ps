@@ -32,7 +32,7 @@ for i in range(num_edge):
 
 # 출력
 print('각 원소가 속한 집합: ', end="")
-for i in range(1, num_node):
+for i in range(1, num_node + 1):
     print(find_parent(parent_table, i), end=' ')
 
 print()

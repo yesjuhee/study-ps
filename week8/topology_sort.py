@@ -33,9 +33,9 @@ def topology_sort():
             if indegree[i] == 0:
                 q.append(i)
         
-        # 결과 출력
-        for node in result:
-            print(node, end=' ')
+    # 결과 출력
+    for node in result:
+        print(node, end=' ')
 
 topology_sort()
 
