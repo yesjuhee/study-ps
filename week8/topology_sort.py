@@ -37,5 +37,5 @@ def topology_sort():
         for node in result:
             print(node, end=' ')
 
-topoloty_sort()
+topology_sort()
 
