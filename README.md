@@ -57,4 +57,9 @@
     - 다익스트라 알고리즘/선형탐색 ([Python](./week7/dijkstra.py), [C++](./week7/dijkstra.cpp))
     - 다익스트라 알고리즘/힙 이용 ([Python](./week7/dijkstra_heap.py), [C++](./week7/dijkstra_heap.cpp))
     - 플로이드워셜 알고리즘 ([Python](./week7/floyd-warshall.py), [C++](./week7/floyd-warshall.cpp))
-
+- 사이클 판별 알고리즘 [Velog 🔗]()
+    - 서로소 집합 자료구조 : 기본 구현 ([Python](./week8/discoint_set.py), [C++](./week8/disjoint_set.cpp))
+    - 서로소 집합 자료구조 : 경로 압축을 이용한 구현 ([Python](./week8/disjoint_set-path_compression.py), [C++](./week8/disjoint_set-path_compression.cpp))
+    - 사이클 판별 알고리즘 ([Python](./week8/cycle.py), [C++](./week8/cycle.cpp))
+- 크루스칼 알고리즘 [Velog 🔗]() ([Python](./week8/kruskal.py), [C++](./week8/kruskal.cpp))
+- 위상 정렬 알고리즘 [Velog 🔗]() ([Python](./week8/topology_sort.py), [C++](./week8/topology_sort.cpp))
