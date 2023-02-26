@@ -7,7 +7,7 @@
     - <a href="https://github.com/iaayoos">iaayoos</a>
 - ✅ 스터디 목표
     - 비전공자의 적성 찾기
-    - 전공 과목 대비 알고리즘 공부
+    - 전공자의 전공 과목 대비 알고리즘 공부
     - 코테 대비 PS 공부
 - 📚 공부 소스 : 이것이 취업을 위한 코딩 테스트다(나동빈 저) 책 & [강의](https://www.youtube.com/playlist?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
 - 🐍 메인 언어 : <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
@@ -57,9 +57,9 @@
     - 다익스트라 알고리즘/선형탐색 ([Python](./week7/dijkstra.py), [C++](./week7/dijkstra.cpp))
     - 다익스트라 알고리즘/힙 이용 ([Python](./week7/dijkstra_heap.py), [C++](./week7/dijkstra_heap.cpp))
     - 플로이드워셜 알고리즘 ([Python](./week7/floyd-warshall.py), [C++](./week7/floyd-warshall.cpp))
-- 사이클 판별 알고리즘 [Velog 🔗]()
+- 사이클 판별 알고리즘 [Velog 🔗](https://velog.io/@yesjuhee/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%82%AC%EC%9D%B4%ED%81%B4-%ED%8C%90%EB%B3%84-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
     - 서로소 집합 자료구조 : 기본 구현 ([Python](./week8/discoint_set.py), [C++](./week8/disjoint_set.cpp))
     - 서로소 집합 자료구조 : 경로 압축을 이용한 구현 ([Python](./week8/disjoint_set-path_compression.py), [C++](./week8/disjoint_set-path_compression.cpp))
     - 사이클 판별 알고리즘 ([Python](./week8/cycle.py), [C++](./week8/cycle.cpp))
-- 크루스칼 알고리즘 [Velog 🔗]() ([Python](./week8/kruskal.py), [C++](./week8/kruskal.cpp))
-- 위상 정렬 알고리즘 [Velog 🔗]() ([Python](./week8/topology_sort.py), [C++](./week8/topology_sort.cpp))
+- 크루스칼 알고리즘 [Velog 🔗](https://velog.io/@yesjuhee/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%ED%81%AC%EB%A3%A8%EC%8A%A4%EC%B9%BC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) ([Python](./week8/kruskal.py), [C++](./week8/kruskal.cpp))
+- 위상 정렬 알고리즘 [Velog 🔗](https://velog.io/@yesjuhee/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9C%84%EC%83%81-%EC%A0%95%EB%A0%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98) ([Python](./week8/topology_sort.py), [C++](./week8/topology_sort.cpp))
