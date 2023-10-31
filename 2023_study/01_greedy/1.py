@@ -10,8 +10,7 @@ sum = 0
 while M > K:
     sum += K * array[0] + array[1]
     M -= (K + 1)
-    
+
 sum += M * array[0]
 
 print(sum)
-        
