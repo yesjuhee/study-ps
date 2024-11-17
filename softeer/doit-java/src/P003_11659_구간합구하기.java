@@ -13,7 +13,6 @@ public class P003_11659_구간합구하기 {
     private int[] arr; // 부분합 배열
 
     public void answer() throws IOException {
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
 
