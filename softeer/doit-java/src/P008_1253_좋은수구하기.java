@@ -15,9 +15,8 @@ class P008_1253_좋은수구하기 {
     private int count = 0;
 
     public void answer() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         // 1. 입력
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
         arr = new long[n];
         StringTokenizer st = new StringTokenizer(br.readLine());
