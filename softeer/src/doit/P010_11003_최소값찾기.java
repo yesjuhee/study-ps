@@ -1,3 +1,5 @@
+package doit;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,8 +11,8 @@ import java.util.StringTokenizer;
  * 자료구조
  * n : 데이터 개수
  * l : 최소값을 구하는 범위
- * Deque<Node> deque : 데이터를 담을 덱 자료구조
- * Node: index와 value를 가지는 클래스
+ * Deque<doit.Node> deque : 데이터를 담을 덱 자료구조
+ * doit.Node: index와 value를 가지는 클래스
  */
 
 /**
